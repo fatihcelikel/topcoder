@@ -9,7 +9,21 @@ int getElement(int[] array, int index) { return array[index]; }
 ## O(N) ##
 N:size of array 
 
-boolean contains (int[] array, int value) { for (int i = 0; i < array.length; i++) { if (array[i] == value) { return true; } } return false; } for (int i = 0; i < array.length; i++) { for (int j =0; j < array.lenght; j++) { System.out.println(arr[x] + " : "+ arr[y]); } } }
+```java
+boolean contains (int[] array, int value) { 
+for (int i = 0; i < array.length; i++) { 
+if (array[i] == value) { return true; 
+} 
+} 
+return false; 
+} 
+
+for (int i = 0; i < array.length; i++) { 
+for (int j =0; j < array.lenght; j++) { 
+System.out.println(arr[x] + " : "+ arr[y]); } 
+} 
+}
+```
 
 N: length of square O(Nˆ2)
 
