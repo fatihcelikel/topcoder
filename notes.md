@@ -1,4 +1,4 @@
-BIG O
+#BIG O#
 
 How the time scales with respect to some input variables
 
